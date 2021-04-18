@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-login",
+  selector: "app-login-page",
   template: `
-    <div>TEST</div>
+    <div>TEST 2</div>
   `
 })
-export class LoginComponent implements OnInit {
+export class LoginPageComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
