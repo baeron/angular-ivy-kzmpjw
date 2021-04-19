@@ -7,10 +7,10 @@ export class AuthGuard implements CanLoad {
   constructor(private router: Router) {}
 
   canLoad(route: Route) {
-    if (localStorage.getItem("currentUser")) {
-      return true;
-    }
-    this.router.navigate(["/login"]);
+    // if (localStorage.getItem("currentUser")) {
+    //   return true;
+    // }
+    // this.router.navigate(["/login"]);
     return false;
   }
 }
